@@ -8,6 +8,18 @@
 .left-section {
   background-color: lightblue;
   width: 165px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.hamburger-menu {
+  width: 21px;
+  height: 21px;
+}
+
+.youtube-logo {
+  width: 95px;
 }
 
 .middle-section {
@@ -16,9 +28,50 @@
   margin: 0 35px 0 70px;
   max-width: 500px;
   padding: 4px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.search-icon {
+  width: 25px;
+  height: 25px;
+}
+
+.voice-search-icon {
+  width: 25px;
+  height: 25px;
+  padding: 5px;
+  border-radius: 18px;
+  background-color: rgb(235, 235, 235);
 }
 
 .right-section {
   background-color: lightblue;
   width: 210px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.upload-icon {
+  width: 25px;
+  height: 25px;
+}
+
+.youtube-apps-icon {
+  width: 25px;
+  height: 25px;
+}
+
+.notifications-icon {
+  width: 27px;
+  height: 27px;
+}
+
+.my-channel-picture {
+  width: 33px;
+  height: 33px;
+  border-radius: 17px;
 }
