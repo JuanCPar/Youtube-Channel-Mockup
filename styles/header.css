@@ -1,21 +1,24 @@
 .header {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
-  background-color: #606060;
-  height: 70px;
-  align-items: center;
+  height: 60px;
 }
 
-.search-bar {
-  color: rgb(245, 245, 245);
-  font-size: 16px;
-  padding-left: 10px;
-  padding-top: 6px;
-  padding-bottom: 6px;
-  border-width: 1px;
-  border-style: solid;
-  border-color: rgb(211, 211, 211);
-  border-radius: 2px;
-  box-shadow: inset 1px 1px 4px 1px rgb(239, 239, 239);
-  display: block;
+.left-section {
+  background-color: lightblue;
+  width: 165px;
+}
+
+.middle-section {
+  background-color: lightpink;
+  flex: 1;
+  margin: 0 35px 0 70px;
+  max-width: 500px;
+  padding: 4px;
+}
+
+.right-section {
+  background-color: lightblue;
+  width: 210px;
 }
