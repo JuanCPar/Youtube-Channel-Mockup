@@ -1,8 +1,19 @@
 .header {
+  height: 56px;
+
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  height: 56px;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+
+  background-color: white;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(219, 219, 219);
 }
 
 .left-section {
@@ -16,15 +27,17 @@
 }
 
 .hamburger-menu {
-  width: 23px;
+  width: 24px;
   height: 25px;
   margin-left: 24px;
   margin-right: 20px;
+  margin-top: 4px;
   cursor: pointer;
 }
 
 .youtube-logo {
   width: 90px;
+  margin-bottom: 2px;
   cursor: pointer;
 }
 
