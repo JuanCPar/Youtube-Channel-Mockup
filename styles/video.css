@@ -9,7 +9,9 @@
   width: 100%;
 }
 
-.video-title {
+.video-title a {
+  text-decoration: none;
+  color: black;
   margin: 0;
 }
 
@@ -53,6 +55,11 @@
 .video-stats {
   color: #606060;
   font-size: 12px;
+}
+
+.video-author a {
+  text-decoration: none;
+  color: #606060;
 }
 
 .video-author {

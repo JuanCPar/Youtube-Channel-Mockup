@@ -112,22 +112,13 @@
   position: absolute;
   bottom: -48px;
   opacity: 0;
-  transition: opacity 0.3s;
+  transition: opacity 0.15s;
   white-space: nowrap;
   pointer-events: none;
 }
 
 .search-button:hover .tooltip,
 .voice-search-button:hover .tooltip {
-  background-color: gray;
-  color: white;
-  border-radius: 2px;
-  margin-top: 18px;
-  font-size: 13px;
-  font-family: Roboto, Arial;
-  padding: 8px 6px;
-  position: absolute;
-  bottom: -48px;
   opacity: 1;
 }
 
@@ -168,7 +159,7 @@
   position: absolute;
   bottom: -48px;
   opacity: 0;
-  transition: opacity 0.3s;
+  transition: opacity 0.15s;
   white-space: nowrap;
   pointer-events: none;
 }
@@ -176,15 +167,6 @@
 .upload-icon-container:hover .tooltip,
 .youtube-apps-icon-container:hover .tooltip,
 .notifications-icon-container:hover .tooltip {
-  background-color: gray;
-  color: white;
-  border-radius: 2px;
-  margin-top: 18px;
-  font-size: 13px;
-  font-family: Roboto, Arial;
-  padding: 8px 6px;
-  position: absolute;
-  bottom: -48px;
   opacity: 1;
 }
 
