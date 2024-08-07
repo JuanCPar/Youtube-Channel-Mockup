@@ -1,6 +1,3 @@
-# Youtube-Channel-Mockup
-Learning HTML and CSS by creating a mockup of Youtube
-
 # YouTube Clone
 ## Overview
 This project is a clone of YouTube's main page, created as part of a learning exercise to enhance my skills in HTML and CSS. The focus was on building a responsive layout using Grid and Flexbox, implementing semantic HTML, and optimizing for SEO.
