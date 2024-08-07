@@ -3,7 +3,7 @@
   position: fixed;
   width: 72px;
   left: 0;
-  top: 55px;
+  top: 56px;
   bottom: 0;
   padding-top: 5px;
   z-index: 100;
@@ -28,6 +28,5 @@
 }
 
 .sidebar-link p {
-  font-family: Roboto, Arial;
   font-size: 10px;
 }

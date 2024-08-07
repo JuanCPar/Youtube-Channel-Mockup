@@ -1,14 +1,36 @@
 p {
-  font-family: Roboto, Arial;
   margin-top: 0;
   margin-bottom: 0;
 }
 
 body {
+  font-family: Roboto, Arial;
   margin: 0;
-  padding-bottom: 445px;
-  padding-top: 80px;
-  padding-left: 95px;
-  padding-right: 24px;
-  background-color: rgb(251, 251, 251);
+  background-color: #f9f9f9;
+}
+
+main {
+  padding-left: 76px;
+  padding-top: 62px;
+}
+
+footer {
+  height: 200px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: -10px;
+}
+
+.footer-note {
+  font-size: 50px;
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+  background: linear-gradient(
+    98.3deg,
+    rgb(255, 0, 0) 10.6%,
+    rgb(0, 0, 0) 97.7%
+  );
 }

@@ -1,8 +1,11 @@
 .video-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(3, 1fr);
   column-gap: 16px;
   row-gap: 40px;
+  margin: 0;
+  padding: 20px;
+  overflow: hidden;
 }
 
 .thumbnail-row {
@@ -85,7 +88,6 @@
 .video-title {
   font-weight: 500;
   font-size: 15px;
-  width: 280px;
   line-height: 20px;
   margin-bottom: 12px;
 }
@@ -109,4 +111,19 @@
 .video-author a {
   text-decoration: none;
   color: #606060;
+}
+
+@media (max-width: 870px) {
+  .video-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 871px) and (max-width: 1121px) {
+}
+
+@media (min-width: 1120px) {
+  .video-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }
