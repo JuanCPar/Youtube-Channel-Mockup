@@ -32,17 +32,10 @@ This project is a clone of YouTube's main page, created as part of a learning ex
 ### SEO Principles
 - **Basic SEO Optimization:**
   - Implemented basic SEO practices, such as using semantic HTML and optimizing the structure for better search engine indexing.
+  - 
+## Future Improvements
+- Fix the search bar adjustment issue on mobile devices.
+- Implement JavaScript to add interactivity.
 
-## Project Structure
-youtube-clone/
-│
-├── youtube.html # Main HTML file
-├── styles/
-│ ├── general.css # General CSS file
-│ ├── header.css # CSS for header styling
-│ ├── video.css # CSS for video styling
-│ ├── sidebar.css # CSS for sidebar styling
-├── images/ # Folder for images
-├── icons/ # Folder for icons
-├── channel-pictures/ # Folder for author channel pictures
-└── README.md # Project README file
+## Acknowledgments
+This project was inspired by the HTML/CSS course provided by Simon at SuperSimple.dev. Simon's tutorials introduced key concepts which I then implemented on my own to develop this project. This hands-on approach allowed me to enhance my understanding and effectively apply new skills to real-world projects, demonstrating my ability to learn independently and tackle practical challenges.
